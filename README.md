@@ -1,5 +1,4 @@
 # Homework 07: Building your own R package
-------------------------------------------
 
 In this repository, you will find the components for my homework 7. The objective of this assignment was to expand on the [powers package](https://github.com/vincenzocoia/powers) created by Vincenzo Coia from the University of British Columbia's Department of Statistics.
 
@@ -30,3 +29,9 @@ Item | Contents
 devtools::install_github("STAT545-UBC-students/hw07-tsmith93/powers-master")
 ```
 You can alternatively use these [methods](http://stat545.com/Classroom/assignments/hw07/hw07-help.html)
+
+# Resources used
+
+[Vincenzo's tutorial](http://stat545.com/Classroom/notes/cm105.nb.html)
+[Jenny's tutorial](http://stat545.com/packages06_foofactors-package.html)
+[This](https://cran.r-project.org/web/packages/roxygen2/vignettes/rd.html) to get roxygen to produce Rd files
