@@ -36,4 +36,4 @@ You can alternatively use these [methods](http://stat545.com/Classroom/assignmen
 
 - [Jenny's tutorial](http://stat545.com/packages06_foofactors-package.html)
 
-- [This](https://cran.r-project.org/web/packages/roxygen2/vignettes/rd.html) to get roxygen to produce Rd files
+- [This](https://cran.r-project.org/web/packages/roxygen2/vignettes/rd.html) tutorial for help getting roxygen to produce Rd files
