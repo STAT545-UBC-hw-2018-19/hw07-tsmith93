@@ -12,7 +12,7 @@ Below is a list of this repository's contents in order of importance:
 # Within the Powers Package folder
 
 Item | Contents
--------------------
+-----|--------------
 R | R scripts for functions
 data | Data used for tests
 man | Rd files created by roxygen
