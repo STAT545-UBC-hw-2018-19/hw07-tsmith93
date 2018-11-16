@@ -16,8 +16,9 @@ boxcox <- function(x, lambda = 0, plot_it = FALSE){
     if(lambda == 0){
         return(log(x))
     }
-load# If value is negative
-    if(x < 0) stop("x values must be positive.")
+load
+# If value is negative
+    if(x < 0) stop("x value must be positive.")
     else{
         return((pow(x,lambda) - 1)/lambda)
     }
