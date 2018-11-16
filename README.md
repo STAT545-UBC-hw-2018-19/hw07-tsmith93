@@ -24,7 +24,9 @@ Item | Contents
 [README Rmd](https://github.com/STAT545-UBC-students/hw07-tsmith93/blob/master/powers-tsmith93/README.Rmd) and [md](https://github.com/STAT545-UBC-students/hw07-tsmith93/blob/master/powers-tsmith93/README.md) | Background information
 [powers.Rproj](https://github.com/STAT545-UBC-students/hw07-tsmith93/blob/master/powers-tsmith93/powers.Rproj) | Project file for the package
 
-# To download and install powers package
-
-Download this repo, and run install.package("powers") followed by library(powers) 
+# To download and install my version of the powers package
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("STAT545-UBC-students/hw07-tsmith93/powers-master")
+```
 You can alternatively use these [methods](http://stat545.com/Classroom/assignments/hw07/hw07-help.html)
