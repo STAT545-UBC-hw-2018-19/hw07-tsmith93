@@ -13,16 +13,16 @@ Below is a list of this repository's contents in order of importance:
 
 Item | Contents
 -----|--------------
-R | R scripts for functions
-data | Data used for tests
-man | Rd files created by roxygen
-tests | R files for function tests
-vignettes | Rmd file to walk through function use
-DECRIPTION | Details of package
-LICENSE | License information
-NAMESPACE | List of functions exported
-README Rmd and md | Background information
-powers.Rproj | Project file for the package
+[R](https://github.com/STAT545-UBC-students/hw07-tsmith93/tree/master/powers-tsmith93/R) | R scripts for functions
+[data](https://github.com/STAT545-UBC-students/hw07-tsmith93/tree/master/powers-tsmith93/data) | Data used for tests
+[man](https://github.com/STAT545-UBC-students/hw07-tsmith93/tree/master/powers-tsmith93/man) | Rd files created by roxygen
+[tests](https://github.com/STAT545-UBC-students/hw07-tsmith93/tree/master/powers-tsmith93/tests) | R files for function tests
+[vignettes](https://github.com/STAT545-UBC-students/hw07-tsmith93/tree/master/powers-tsmith93/vignettes) | Rmd file to walk through function use
+[DECRIPTION](https://github.com/STAT545-UBC-students/hw07-tsmith93/blob/master/powers-tsmith93/DESCRIPTION) | Details of package
+[LICENSE](https://github.com/STAT545-UBC-students/hw07-tsmith93/blob/master/powers-tsmith93/LICENSE) | License information
+[NAMESPACE](https://github.com/STAT545-UBC-students/hw07-tsmith93/blob/master/powers-tsmith93/NAMESPACE) | List of functions exported
+[README Rmd](https://github.com/STAT545-UBC-students/hw07-tsmith93/blob/master/powers-tsmith93/README.Rmd) and [md](https://github.com/STAT545-UBC-students/hw07-tsmith93/blob/master/powers-tsmith93/README.md) | Background information
+[powers.Rproj](https://github.com/STAT545-UBC-students/hw07-tsmith93/blob/master/powers-tsmith93/powers.Rproj) | Project file for the package
 
 # To download and install powers package
 
