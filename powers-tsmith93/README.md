@@ -29,6 +29,23 @@ See the vignette for more extensive use, but here’s an example:
 powers::reciprocal(2)
 #> [1] 0.5
 ```
+Here is an example of using the functions to cube and square these values 2, 4, 6, 8.
+
+
+```{r}
+powers::cube(c(2,4,6,8))
+```
+
+```{r}
+powers::square(c(2,4,6,8))
+```
+
+Here is an example of a basic use of the boxcox() function in the powers package.  We will use a vector, x, consisting of 2, 3, 4, and 5. The lambda parameter, which is a measure of the strength of the boxcox transformation, is set to 2.
+
+```{r}
+x = 2:5
+powers::boxcox.transform(x, lambda = 2)
+```
 
 ## For Developers
 
