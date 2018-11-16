@@ -34,11 +34,31 @@ Here is an example of using the functions to cube and square these values 2, 4, 
 
 ```{r}
 powers::cube(c(2,4,6,8))
+#> [1] 8 64 216 512
 ```
 
 ```{r}
 powers::square(c(2,4,6,8))
+#> [1] 4 16 36 64 
 ```
+
+Here will will use frac.pow (has a default fractional power of 1/2) and squarer to get the square root of a vector, and cubicr to get the cubic root
+
+```{r}
+powers::frac.pow(c(4,9,16))
+#> [1] 2 3 4
+```
+
+```{r}
+powers::squarer(c(4,9,16))
+#> [1] 2 3 4
+```
+
+```{r}
+powers::cubicr(c(8,27,64))
+#> [1] 2 3 4
+```
+
 
 Here is an example of a basic use of the boxcox() function in the powers package.  We will use a vector, x, consisting of 2, 3, 4, and 5. The lambda parameter, which is a measure of the strength of the boxcox transformation, is set to 2.
 
