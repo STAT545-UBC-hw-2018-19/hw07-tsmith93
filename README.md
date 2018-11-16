@@ -8,3 +8,8 @@ Below is a list of this repository's contents in order of importance:
 1. [Powers package folder](https://github.com/STAT545-UBC-students/hw07-tsmith93/tree/master/powers-tsmith93)
 2. The [.RProj file](https://github.com/STAT545-UBC-students/hw07-tsmith93/blob/master/hw07-tsmith93.Rproj)
 3. An [.RProj.user folder](https://github.com/STAT545-UBC-students/hw07-tsmith93/tree/master/.Rproj.user) you can **ignore**
+
+# To download and install powers package
+
+Download this repo, and run install.package("powers") followed by library(powers) 
+You can alternatively use these [methods](http://stat545.com/Classroom/assignments/hw07/hw07-help.html)
