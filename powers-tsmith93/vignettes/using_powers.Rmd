@@ -1,6 +1,6 @@
 ---
 title: "Using the `powers` package"
-author: "Vincenzo Coia"
+author: "Vincenzo Coia and Thomas Smith"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -41,4 +41,26 @@ It even comes with the ability to display its output in plot form!
 reciprocal(1:10, plot_it=TRUE)
 ```
 
-Wow!!!
+Let's try using the fractional power functions!
+
+First let's take the square root of a value, or a fractional power of 2
+```{r}
+squarer(4)
+```
+ OH wow, amazing!
+ 
+ Next let's try taking the cubic root:
+ 
+```{r}
+cubicr(64)
+```
+ 
+ Nice and easy!
+ 
+ Now let's do a Box-Cox transformation of a some values
+ 
+```{r}
+boxcox(c(2,5,65,78,87))
+```
+ 
+Worked like a charm!
