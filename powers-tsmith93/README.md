@@ -65,6 +65,7 @@ Here is an example of a basic use of the boxcox() function in the powers package
 ```{r}
 x = 2:5
 powers::boxcox.transform(x, lambda = 2)
+#> [1] 1.5 4.0 7.5 12.0
 ```
 
 ## For Developers
